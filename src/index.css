@@ -1,4 +1,5 @@
 body {
+  background-image: url('pokemon-backgrounds-13.jpg');
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
@@ -7,8 +8,56 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.btns-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.btns {
+  box-sizing: border-box;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  flex: 1 1 0;
+  margin: 20px;
+  padding: 20px;
+}
+
+.next-pokemon {
+  background-color: rgba(183, 245, 196, 0.787);
+}
+
+.eletric {
+  background-color: rgba(255, 255, 0, 1);
+}
+
+.fire {
+  background-color: rgba(255, 146, 0, 0.85);
+}
+
+.poison {
+  background-color: rgba(146, 0, 255, 0.85);
+}
+
+.all-pokemons {
+  background-color: rgba(255, 255, 255, 0.85);
+}
+
+.dragon {
+  background-color: rgba(2, 255, 252, 0.61);
+}
+
+.normal {
+  background-color: rgba(27, 27, 27, 0.09);
+}
+
+.psychic {
+  background-color: rgba(230, 233, 1, 0.96);
+}
+
 .pokemon {
   display: flex;
+  background-color: rgba(0, 255, 252, 0.34);
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   align-items: center;
   justify-content: space-around;
   flex: 1 1 auto;
@@ -16,10 +65,16 @@ body {
   margin: 10px 10px;
   border: 1px gray solid;
   border-radius: 10px;
+  color:rgba(223, 57, 21, 0.91);
+  text-align: center;
 }
 
 .pokedex {
   display: flex;
   flex-wrap: wrap;
   margin: 10px 10px;
+}
+
+.title {
+  color:rgba(223, 57, 21, 0.91);
 }
